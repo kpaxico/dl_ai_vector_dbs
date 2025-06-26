@@ -159,20 +159,3 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 Remove-Item -Recurse -Force venv
 python -m venv venv
 ```
-
-### Best Practices
-
-1. **Always activate your virtual environment** before installing packages or running your code
-2. **Keep your requirements.txt updated** when you add new dependencies
-3. **Don't commit the venv directory** to version control (add it to .gitignore)
-4. **Use descriptive environment names** for different projects
-5. **Regularly update your packages** to get security patches and new features
-6. **Check package installation** after setting up your environment
-
-### Next Steps
-
-1. Create and activate your virtual environment
-2. Install the required dependencies
-3. Verify package installation using the methods above
-4. Open the Jupyter notebooks in the project directories
-5. Start exploring vector databases and embeddings!
